@@ -6,11 +6,11 @@ import org.example.Triangle;
 
 public class Main {
 
-    public static void main(String[] args) {
+    static void main() {
 
-        Circle circle = new Circle(5);
-        Rectangle rectangle = new Rectangle(4, 6);
-        Triangle triangle = new Triangle(3, 4, 5);
+        Circle circle = new Circle(3);
+        Rectangle rectangle = new Rectangle(7, 12);
+        Triangle triangle = new Triangle(7, 7, 7);
 
         System.out.println("Круг");
         System.out.println("Площадь: " + circle.getArea());

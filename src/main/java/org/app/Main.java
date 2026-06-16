@@ -8,14 +8,14 @@ public class Main {
 
     static void main() {
 
-        Circle circle = new Circle(3);
+        Circle circle = new Circle(4);
         Rectangle rectangle = new Rectangle(8, 12);
         Triangle triangle = new Triangle(7, 7, 7);
 
         System.out.println("Круг");
         System.out.println("Площадь: " + circle.getArea());
         System.out.println("Периметр: " + circle.getPerimeter());
-        System.out.println("Диаметр: " + circle.getDiameter);
+        System.out.println("Диаметр: " + circle.getDiameter());
 
         System.out.println();
 
